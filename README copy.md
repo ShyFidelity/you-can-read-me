@@ -1,2 +1,0 @@
-# howtoreadme
-read me generator 

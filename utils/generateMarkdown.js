@@ -1,15 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 
-const inquirer = require("inquirer");
-const generateMarkdown = require('./utils/generateMarkdown.js');
-const fs = require('fs');
-const path = require('path');
-
 
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  https://img.shields.io/badge/dynamic/yaml?url=<URL>&label=<LABEL>&query=<$.DATA.SUBDATA>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>
-
+ if (license !== "None") {
+   return `[License](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`;
+ } return ' ';
 
 }
 
@@ -26,12 +22,29 @@ function renderLicenseSection(license) {}
 //
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
 ## ${data.username}
 ## ${data.projectName} 
-*[] #installation 
-    #description 
-    #howtouse
+## Table of Contents
+* [Description](#Description) 
+  [Installation](#Installation)
+  [How to Use](#usage)
+  [Contributors](#contributors) 
+  [Test:](#test)
+  [Dependencies:](#dependencies)
 
+## Description 
+  ${data.description}
+## Installation
+  ${data.dependencies}
+## How to use 
+  ${data.usage}
+## Contributors
+  ${data.contributors}
+## Test
+  ${data.test}
+## Dependencies
+  ${data.dependencies}
 `;
 
 
