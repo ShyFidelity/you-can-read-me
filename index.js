@@ -29,6 +29,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'motivation',
+        message: 'What was your motivation for this project?',
+      },
+    {
+        type: 'input',
         name: 'install',
         message: 'Install instructions:',
     },
@@ -50,7 +55,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        choices: ['Apache License 2.0', 'MIT License', 'Mozilla Public License 2.0', 'Artistic License 2.0', 'Olivia Rodrigo Drivers License'],
+        choices: ['Apache License 2.0', 'MIT License', 'Mozilla Public License 2.0', 'Artistic License 2.0', 'Olivia Rodrigo Drivers License', 'None'],
     }, 
     {
         type: 'input', 
