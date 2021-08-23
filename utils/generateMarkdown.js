@@ -4,7 +4,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
  if (license !== "None") {
-   return `[License] (https://img.shields.io/static/v1?label=license&message=${license}&color=blue)`;
+   return `(https://img.shields.io/badge/license-${license}-blue.svg`;
  } return ' ';
 
 }
@@ -16,26 +16,33 @@ function renderLicenseLink(license) {
   let lMozilla = '(https://www.mozilla.org/en-US/MPL/2.0/)';
   let lArtistic = '(https://opensource.org/licenses/Artistic-2.0)';
   let LOliva = '(https://www.youtube.com/watch?v=ZmDBbnmKpqQ)';
-
-  // if (license != "None") {
-  //   return ## ${data.license}
-  // }
+    if (license !== "None") {
+      return (`\n* [License](#license)\n`)
+    
+  }
+  
 
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return `## [License](#license)
+    Copyright: ${license}`;
+  }
+}
 // TODO: Create a function to generate markdown for README
 //send quetions to return text back and save to a file 
 //spaces returns are literal 
 //
+
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+## My README
 ## ${data.username}
 ##[${data.username}](https://github.com/${data.username}/)
-## ${data.projectName} 
 ## Table of Contents
 * [Description](#Description) 
   [Motivation](#motivation)
@@ -44,11 +51,11 @@ function generateMarkdown(data) {
   [Contributors](#contributors) 
   [Test:](#test)
   [Dependencies:](#dependencies)
-  [License link:](#LicenseLink)
+  
 
 ## Description 
   ${data.description}
-## Description 
+## Motivation 
   ${data.motivation}
 ## Installation
   ${data.dependencies}
@@ -60,7 +67,9 @@ function generateMarkdown(data) {
   ${data.test}
 ## Dependencies
   ${data.dependencies}
-## License Link
+## License
+[License link:]${renderLicenseLink(data.license)}
+${renderLicenseSection(data.license)}
 `;
 
 

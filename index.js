@@ -10,6 +10,12 @@ const path = require ('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 const questions = [
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of this Project?',
+      },
+
 
     {
         type: 'input',
@@ -17,11 +23,6 @@ const questions = [
         message: 'What is your Github username?',
       },
 
-    {
-      type: 'input',
-      name: 'projectName',
-      message: 'What is the name of your project?',
-    },
     {
       type: 'input',
       name: 'description',
@@ -55,7 +56,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        choices: ['Apache License 2.0', 'MIT License', 'Mozilla Public License 2.0', 'Artistic License 2.0', 'Olivia Rodrigo Drivers License', 'None'],
+        choices: ['ApacheLicense2.0', 'MIT', 'MozillaPublicLicense2.0', 'ArtisticLicense2.0', 'OliviaRodrigoDriversLicense', 'None'],
     }, 
     {
         type: 'input', 
