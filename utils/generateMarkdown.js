@@ -4,7 +4,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
  if (license !== "None") {
-   return `(https://img.shields.io/badge/license-${license}-blue.svg`;
+   return `(https://img.shields.io/badge/license-${license}-blue.svg)`;
  } return ' ';
 
 }
@@ -16,8 +16,12 @@ function renderLicenseLink(license) {
   let lMozilla = '(https://www.mozilla.org/en-US/MPL/2.0/)';
   let lArtistic = '(https://opensource.org/licenses/Artistic-2.0)';
   let LOliva = '(https://www.youtube.com/watch?v=ZmDBbnmKpqQ)';
-    if (license !== "None") {
-      return (`\n* [License](#license)\n`)
+
+  let linkArray = [lApache,lMIT,lMozilla,lArtistic,LOliva];
+
+  for (let i = 0; i < linkArray.length; i++) {
+    const element = linkArray[i];
+    
     
   }
   
@@ -28,8 +32,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None") {
-    return `## [License](#license)
-    Copyright: ${license}`;
+    return `
+    Copyright: ${license}
+    [License link: ]${renderLicenseLink(license)}`;
+    
   }
 }
 // TODO: Create a function to generate markdown for README
@@ -40,8 +46,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-## My README
-## ${data.username}
+## GitHub Username and link
 ##[${data.username}](https://github.com/${data.username}/)
 ## Table of Contents
 * [Description](#Description) 
@@ -68,7 +73,6 @@ function generateMarkdown(data) {
 ## Dependencies
   ${data.dependencies}
 ## License
-[License link:]${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license)}
 `;
 
