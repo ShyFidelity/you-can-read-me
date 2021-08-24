@@ -78,6 +78,7 @@ function init() {
     inquirer.prompt(questions)
     .then((data) => {
         writeToFile("README.MD", generateMarkdown({...data}))
+        console.log("Look at you! You made a README! AWESOME!");
     });
 }
 

@@ -10,7 +10,7 @@ function renderLicenseBadge(license) {
 }
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink() {
   let lApache = '(https://www.apache.org/licenses/LICENSE-2.0)';
   let lMIT = '(https://opensource.org/licenses/MIT)';
   let lMozilla = '(https://www.mozilla.org/en-US/MPL/2.0/)';
@@ -19,9 +19,9 @@ function renderLicenseLink(license) {
 
   let linkArray = [lApache,lMIT,lMozilla,lArtistic,LOliva];
 
-  for (let i = 0; i < linkArray.length; i++) {
-    const element = linkArray[i];
-    
+  for (const value of linkArray) {
+  console.log(value);
+  
     
   }
   
@@ -30,11 +30,11 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(value) {
   if (license !== "None") {
     return `
     Copyright: ${license}
-    [License link: ]${renderLicenseLink(license)}`;
+    [License link: ]${renderLicenseLink(value)}`;
     
   }
 }
@@ -73,7 +73,7 @@ function generateMarkdown(data) {
 ## Dependencies
   ${data.dependencies}
 ## License
-${renderLicenseSection(data.license)}
+${renderLicenseSection(value[i])}
 `;
 
 

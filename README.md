@@ -1,7 +1,7 @@
 # s
-  https://img.shields.io/badge/license-ApacheLicense2.0-blue.svg
+  (https://img.shields.io/badge/license-ApacheLicense2.0-blue.svg)
 ## GitHub Username and link
-##[eeee](https://github.com/eeee/)
+##[s](https://github.com/s/)
 ## Table of Contents
 * [Description](#Description) 
   [Motivation](#motivation)
@@ -13,17 +13,17 @@
   
 
 ## Description 
-  aaa
+  s
 ## Motivation 
   
 ## Installation
   npm i
 ## How to use 
-  
+  s
 ## Contributors
-  sf
+  
 ## Test
-  e
+  
 ## Dependencies
   npm i
 ## License
