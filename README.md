@@ -1,5 +1,5 @@
-# Puppy Tech
-  ![](https://img.shields.io/badge/license-MIT-blue.svg)
+# 
+  ![](https://img.shields.io/badge/license-ApacheLicense2.0-blue.svg)
 ## GitHub Username and link
 ## Table of Contents
 * [Description](#Description) 
@@ -11,22 +11,22 @@
 * [Questions](#questions)
   
 ## [Description](#Description)  📝
-  is helping puppies understand technology 
+  
 ## [Motivation](#Motivation) 🤽‍♂️
-  my Dog Remington who always is hyper and needs something to do so he can now help me with coding
+  
 ## [How to Use](#Usage) 
-  we will use inquirer to answer questions for our read me
+  
 ## [Contributors](#Contributors)🏆
-  me and Remington
+  
 ## [Test](#Test)🎯
-  jest
+  
 ## [Dependencies](#dependencies)
   npm i
 ## [Questions](#questions)📟
   Find me on Github! 
-  [jilliankayworks](https://github.com/jilliankayworks/)
-  or you can email me at info@jilliankayworks.com
+  [](https://github.com//)
+  or you can email me at 
 ## License
 
-Copyright: MIT
-[License link](https://opensource.org/licenses/MIT)
+Copyright: ApacheLicense2.0
+[License link](https://www.apache.org/licenses/LICENSE-2.0)
