@@ -1,31 +1,34 @@
 # 
   ![](https://img.shields.io/badge/license-ApacheLicense2.0-blue.svg)
 ## GitHub Username and link
-##[](https://github.com//)
 ## Table of Contents
 * [Description](#Description) 
-* [Motivation](#motivation)
+* [Motivation](#Motivation)
 * [Installation](#Installation)
-* [How to Use](#usage)
-* [Contributors](#contributors) 
-* [Test:](#test)
-* [Dependencies:](#dependencies)
+* [How to Use](#Usage)
+* [Contributors](#Contributors) 
+* [Test](#Test)
+* [Dependencies](#dependencies)
+* [Questions](#questions)
   
-
-## Description 
+## Description 📝
   
-## Motivation 
+## Motivation 🤽‍♂️
   
 ## Installation
   npm i
-## How to use 
+## Usage 
   
-## Contributors
+## Contributors🏆
   
-## Test
+## Test🎯
   
 ## Dependencies
   npm i
+## Questions📟
+  Find me on Github! 
+  [](https://github.com//)
+  or you can email me at 
 ## License
 
 Copyright: ApacheLicense2.0

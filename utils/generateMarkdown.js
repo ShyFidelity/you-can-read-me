@@ -56,30 +56,29 @@ function generateMarkdown(data) {
 ## GitHub Username and link
 ## Table of Contents
 * [Description](#Description) 
-* [Motivation](#motivation)
+* [Motivation](#Motivation)
 * [Installation](#Installation)
-* [How to Use](#usage)
-* [Contributors](#contributors) 
-* [Test](#test)
+* [How to Use](#Usage)
+* [Contributors](#Contributors) 
+* [Test](#Test)
 * [Dependencies](#dependencies)
 * [Questions](#questions)
   
-
-## Description 
+## Description 📝
   ${data.description}
-## Motivation 
+## Motivation 🤽‍♂️
   ${data.motivation}
 ## Installation
   ${data.dependencies}
-## How to use 
+## Usage 
   ${data.usage}
-## Contributors
+## Contributors🏆
   ${data.contributors}
-## Test
+## Test🎯
   ${data.test}
 ## Dependencies
   ${data.dependencies}
-## Questions
+## Questions📟
   Find me on Github! 
   [${data.username}](https://github.com/${data.username}/)
   or you can email me at ${data.email}
