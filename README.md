@@ -1,35 +1,32 @@
-# 
-  ![](https://img.shields.io/badge/license-ApacheLicense2.0-blue.svg)
+# Puppy Tech
+  ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ## GitHub Username and link
 ## Table of Contents
 * [Description](#Description) 
 * [Motivation](#Motivation)
-* [Installation](#Installation)
 * [How to Use](#Usage)
 * [Contributors](#Contributors) 
 * [Test](#Test)
 * [Dependencies](#dependencies)
 * [Questions](#questions)
   
-## Description 📝
-  
-## Motivation 🤽‍♂️
-  
-## Installation
+## [Description](#Description)  📝
+  is helping puppies understand technology 
+## [Motivation](#Motivation) 🤽‍♂️
+  my Dog Remington who always is hyper and needs something to do so he can now help me with coding
+## [How to Use](#Usage) 
+  we will use inquirer to answer questions for our read me
+## [Contributors](#Contributors)🏆
+  me and Remington
+## [Test](#Test)🎯
+  jest
+## [Dependencies](#dependencies)
   npm i
-## Usage 
-  
-## Contributors🏆
-  
-## Test🎯
-  
-## Dependencies
-  npm i
-## Questions📟
+## [Questions](#questions)📟
   Find me on Github! 
-  [](https://github.com//)
-  or you can email me at 
+  [jilliankayworks](https://github.com/jilliankayworks/)
+  or you can email me at info@jilliankayworks.com
 ## License
 
-Copyright: ApacheLicense2.0
-[License link](https://www.apache.org/licenses/LICENSE-2.0)
+Copyright: MIT
+[License link](https://opensource.org/licenses/MIT)
