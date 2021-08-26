@@ -22,6 +22,11 @@ const questions = [
         name: 'username',
         message: 'What is your Github username?',
       },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is email?',
+    },
 
     {
       type: 'input',
@@ -56,6 +61,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
+        message: 'What license did you choose?',
         choices: ['ApacheLicense2.0', 'MIT', 'MozillaPublicLicense2.0', 'ArtisticLicense2.0', 'OliviaRodrigoDriversLicense', 'None'],
     }, 
     {
