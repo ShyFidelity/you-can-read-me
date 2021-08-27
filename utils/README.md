@@ -11,6 +11,8 @@
   
 ## [Description](#Description)  📝
 With this project we focused on getting familiar with node and inquirer to generate a readme file to help with applications.
+Here is a screenshot of my project
+![screenshot of my image](./ssreadme.png)
   
 ## [Motivation](#Motivation) 🤽‍♂️
 Creating a node application and generating a file and not working with the DOM was new and challenging but also very fun. Understanding how the back end of the internet works has been very interesting. 
