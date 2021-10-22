@@ -1,5 +1,5 @@
-# I
-  ![](https://img.shields.io/badge/license-MozillaPublicLicense2.0-blue.svg)
+# ReadMe Generator 
+  ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ## GitHub Username and link
 ## Table of Contents
 * [Description](#Description) 
@@ -11,22 +11,22 @@
 * [Questions](#questions)
   
 ## [Description](#Description)  📝
-  e
+  Intro to NodeJS see ReadMe in Utils Folder
 ## [Motivation](#Motivation) 🤽‍♂️
-  ee
+  Node
 ## [How to Use](#Usage) 
-  eee
+  
 ## [Contributors](#Contributors)🏆
-  eee
+  
 ## [Test](#Test)🎯
-  ee
+  
 ## [Dependencies](#dependencies)
   npm i
 ## [Questions](#questions)📟
   Find me on Github! 
-  [a](https://github.com/a/)
-  or you can email me at eee
+  [shyfidelity ](https://github.com/shyfidelity /)
+  or you can email me at 
 ## License
 
-Copyright: MozillaPublicLicense2.0
-[License link](https://www.mozilla.org/en-US/MPL/2.0/)
+Copyright: MIT
+[License link](https://opensource.org/licenses/MIT)
