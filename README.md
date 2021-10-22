@@ -1,5 +1,5 @@
-# 
-  ![](https://img.shields.io/badge/license-ApacheLicense2.0-blue.svg)
+# I
+  ![](https://img.shields.io/badge/license-MozillaPublicLicense2.0-blue.svg)
 ## GitHub Username and link
 ## Table of Contents
 * [Description](#Description) 
@@ -11,22 +11,22 @@
 * [Questions](#questions)
   
 ## [Description](#Description)  📝
-  
+  e
 ## [Motivation](#Motivation) 🤽‍♂️
-  
+  ee
 ## [How to Use](#Usage) 
-  
+  eee
 ## [Contributors](#Contributors)🏆
-  
+  eee
 ## [Test](#Test)🎯
-  
+  ee
 ## [Dependencies](#dependencies)
   npm i
 ## [Questions](#questions)📟
   Find me on Github! 
-  [](https://github.com//)
-  or you can email me at 
+  [a](https://github.com/a/)
+  or you can email me at eee
 ## License
 
-Copyright: ApacheLicense2.0
-[License link](https://www.apache.org/licenses/LICENSE-2.0)
+Copyright: MozillaPublicLicense2.0
+[License link](https://www.mozilla.org/en-US/MPL/2.0/)
